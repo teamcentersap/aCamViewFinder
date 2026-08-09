@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ACam Viewfinder — Support & Privacy</title>
+  <meta name="description" content="Support and privacy policy for ACam Viewfinder." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Instrument+Serif&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0e1012;
+      --surface: #1c2128;
+      --stroke: #383f48;
+      --text: #f2f4f6;
+      --muted: #9aa3ad;
+      --accent: #4db6c8;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "DM Sans", system-ui, sans-serif;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(77, 182, 200, 0.12), transparent 55%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap {
+      width: min(720px, calc(100% - 2.5rem));
+      margin: 0 auto;
+      padding: 2.5rem 0 4rem;
+    }
+    header {
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--stroke);
+      margin-bottom: 2.25rem;
+    }
+    .brand {
+      font-family: "Instrument Serif", Georgia, serif;
+      font-size: clamp(2.3rem, 6vw, 3.2rem);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.45rem;
+      line-height: 1.1;
+    }
+    .tag { color: var(--muted); margin: 0; max-width: 34rem; }
+    nav {
+      display: flex;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      margin-top: 1.35rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    section { margin-bottom: 2.5rem; }
+    h2 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 0.85rem;
+    }
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 1.25rem 0 0.4rem;
+      color: var(--text);
+    }
+    p { margin: 0 0 0.85rem; color: var(--muted); }
+    p strong { color: var(--text); }
+    ul { margin: 0 0 1rem; padding-left: 1.15rem; color: var(--muted); }
+    li { margin-bottom: 0.4rem; }
+    li strong { color: var(--text); font-weight: 600; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
+      padding: 1.35rem 1.4rem;
+    }
+    .email {
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin: 0.25rem 0 0.5rem;
+    }
+    .pill {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(77, 182, 200, 0.14);
+      border: 1px solid rgba(77, 182, 200, 0.35);
+      border-radius: 999px;
+      padding: 0.28rem 0.7rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      border-top: 1px solid var(--stroke);
+      padding-top: 1.4rem;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+  </style>
+</head>
+<body>
+  <!--
+    Replace SUPPORT_EMAIL with your real support email before publishing.
+    Contact is email only — no developer name on this page.
+  -->
+  <script>
+    const SUPPORT_EMAIL = "support@acamviewfinder.com";
+  </script>
+
+  <div class="wrap">
+    <header>
+      <p class="pill">Support &amp; Privacy</p>
+      <h1 class="brand">ACam Viewfinder</h1>
+      <p class="tag">Offline focus, diopter, and framing tools for camera assistants and DPs.</p>
+      <nav>
+        <a href="#support">Support</a>
+        <a href="#privacy">Privacy Policy</a>
+      </nav>
+    </header>
+
+    <section id="support">
+      <h2>Support</h2>
+      <div class="card">
+        <p>For help with ACam Viewfinder, email:</p>
+        <a class="email" id="support-email" href="mailto:support@acamviewfinder.com">support@acamviewfinder.com</a>
+        <p>
+          Please include your device model, iOS version, and a short description of the issue.
+          No account is required to use the app.
+        </p>
+        <h3>What the app does</h3>
+        <ul>
+          <li><strong>Focus</strong> — ideal diopter, nearest standard strength, comparison table</li>
+          <li><strong>Precision</strong> — format, lens, offset, and DOF near/far estimates</li>
+          <li><strong>Viewfinder</strong> — split planning overlay with FOV and frame width</li>
+          <li><strong>Lens packages</strong> — save setups locally on your device</li>
+        </ul>
+        <p>
+          v1.0 is free. All tools above are included with no purchase.
+          Offset-aware results are prep estimates — verify critical shots during lens prep.
+        </p>
+      </div>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy Policy</h2>
+      <div class="card">
+        <p><strong>Last updated:</strong> August 9, 2026</p>
+
+        <h3>Overview</h3>
+        <p>
+          ACam Viewfinder performs optical planning calculations on your device.
+          Version 1.0 does not require an account and does not include advertising or analytics SDKs.
+        </p>
+
+        <h3>Data we do not collect</h3>
+        <ul>
+          <li>No account or profile information</li>
+          <li>No advertising identifiers or tracking</li>
+          <li>No analytics or crash-reporting SDKs in this version</li>
+          <li>No access to camera, microphone, photos, contacts, or location</li>
+        </ul>
+
+        <h3>On-device storage</h3>
+        <p>
+          Preferences (such as distance units) and saved lens packages are stored locally on your device
+          using standard iOS local storage. This data stays on your device unless you delete the app or clear it.
+        </p>
+
+        <h3>Purchases</h3>
+        <p>
+          v1.0 ships with all features unlocked and does not require In-App Purchase.
+          If a future version enables App Store purchases, payment is processed by Apple under Apple’s terms.
+        </p>
+
+        <h3>Contact</h3>
+        <p>
+          Privacy questions:
+          <a id="privacy-email" href="mailto:support@acamviewfinder.com">support@acamviewfinder.com</a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>ACam Viewfinder · Offline · No ads · No analytics SDK</p>
+      <p>Support: <a id="footer-email" href="mailto:support@acamviewfinder.com">support@acamviewfinder.com</a></p>
+    </footer>
+  </div>
+
+  <script>
+    document.querySelectorAll("#support-email, #privacy-email, #footer-email").forEach((el) => {
+      el.textContent = SUPPORT_EMAIL;
+      el.setAttribute("href", "mailto:" + SUPPORT_EMAIL);
+    });
+  </script>
+</body>
+</html>
